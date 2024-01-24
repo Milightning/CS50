@@ -26,7 +26,8 @@ int main(void)
         dimes++;
         change -= 10;
     }
-    while (change >= 5)
+
+        while (change >= 5)
     {
         nickels++;
         change -= 5;
