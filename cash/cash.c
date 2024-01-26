@@ -33,6 +33,7 @@ int main(void)
         change -= 10;
     }
         
+
         while (change >= 5)
     {
         nickels++;
