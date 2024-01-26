@@ -1,6 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
+//the program for change calculation
 int main(void)
 {
     int change;
@@ -39,7 +40,7 @@ int main(void)
         pennies++;
         change -= 1;
     }
-    
+
     int amountOfCoins = quarters + dimes + nickels + pennies;
     printf("%i\n", amountOfCoins);
 }
