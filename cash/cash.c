@@ -6,6 +6,8 @@ int main(void)
 {
     int change;
 
+//do while loop checks if the change value is more than 0
+
     do
     {
         change = get_int("Change owed: ");
@@ -16,6 +18,8 @@ int main(void)
     int dimes = 0;
     int nickels = 0;
     int pennies = 0;
+
+//while loops count the amount of qurters, dimes, nickels and pennies
 
         while (change >= 25)
     {
